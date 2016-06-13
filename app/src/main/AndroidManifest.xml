@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saibharath.tedence">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppBaseTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.saibharath.tedence.Type_chooser"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.saibharath.tedence.Type_chooser" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.saibharath.tedence.Record_deletion"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.saibharath.tedence.Record_deletion" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.saibharath.tedence.Check_Stats"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.saibharath.tedence.Check_Stats" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.saibharath.tedence.Fetch_from_file"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.saibharath.tedence.Fetch_from_file" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.saibharath.tedence.Add_class_names"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.saibharath.tedence.Add_class_names" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name="com.example.saibharath.tedence.DataHandler"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.saibharath.tedence.DataHandler" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.saibharath.tedence.Display_Buttons"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.saibharath.tedence.Display_Buttons" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.saibharath.tedence.Yes_SIR"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.saibharath.tedence.Yes_SIR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.saibharath.tedence.Register_DETAILS"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.saibharath.tedence.Register_DETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.saibharath.tedence.Enter_roll_numbers"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.saibharath.tedence.Enter_roll_numbers" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
